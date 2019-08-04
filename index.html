@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Scott McDowell's Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -8,10 +8,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-@font-face {
-                font-family:greatvibes;
-                src: url("css/fonts/GreatVibes-Regular.otf");
-            }
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -39,17 +35,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <!-- Header -->
   <header id="portfolio">
-    <a href="#"><img src="css/images/avatar_alt.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <a href="#"><img src="css/images/avatar.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>James Scott McDowell: </b><b style="font-family:greatvibes;">A Portfolio</b></h1>
+    <h1><b>James Scott McDowell</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
-      <span class="w3-margin-right">Filter:</span> 
-      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-plus" aria-hidden="true"></i></button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-paint-brush w3-margin-right"></i>Art</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-plus" aria-hidden="true"></i></button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-code w3-margin-right"></i>Dev</button>
+      <table>
+        <tr>
+          <td><i class="fa fa-diamond"></i><span style="margin-right:1.6vw;margin-left:0.5vw;">Design</span></td><td><i class="fa fa-paint-brush"></i><span style="margin-right:2vw;margin-left:0.5vw;">Art</span></td><td><i class="fa fa-code"></i><span style="margin-left:0.5vw;">Dev</span></td>
+        </tr>
+      </table>
     </div>
     </div>
   </header>
@@ -107,9 +102,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Third Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="css/images/dry_palms.jpg" alt="Dry Palms: A low polygon art rendering" style="width:100%" class="w3-hover-opacity">
+      <img src="css/images/dry_palms.jpg" alt="Dry Palms: A low polygon art rendering" style="width:100%">
       <div class="w3-container w3-white">
-        <p><b>'Dry Palms'</b></p>
+        <p><b>"Dry Palms"</b></p>
         <p>A low polygon art rendering created with R.A.D. 3D Editor and Blender.org
         <br>Inspired by <a href="https://youtu.be/SlMt_hK0qTs?t=656">Seapunk artwork</a>, circa 2013.</p>
       </div>
@@ -132,10 +127,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         It's part retro, part future, part cyber, part punk." - <a href="https://www.facebook.com/events/1415307591895751/">Paul Chin Jr. on Popup Robots</a></p>
     <p>In addition to Paul's words, I seek to make every technical endeavor, including web apps, an artistic endeavor as well as an engineering marvel.<br>It takes a ton of work to make each creation both technically and artistically sound, but it's work that's rewarding and well-worth the effort to satisfy myself, and my clientele.</p>
     <hr>
-    
     <h4>Technical Skills</h4>
     <!-- Progress bars / Skills -->
+    <p>HTML</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+    </div>
     <p>JavaScript</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+    </div>
+    <p>CSS</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
     </div>
@@ -148,7 +150,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
     </div>
     <p>
-      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" onclick="window.location='https://www.dropbox.com/l/scl/AAA4_Xri5Xgw4K9xYWZ3BRhAuzaVg6DLU2M';">
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" onclick="window.location='https://www.dropbox.com/s/9q26nkdzvb493pm/james_mcdowell_resume.pdf?dl=0';">
         <i class="fa fa-download w3-margin-right"></i>Download Resume
       </button>
     </p>
@@ -163,12 +165,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
         <p>mcdowellj87@gmail.com</p>
       </div>
-      <a href="https://goo.gl/maps/FhvhRBsT37qF3AdbA">
-        <div class="w3-third w3-teal">
-          <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-          <p>Apex, NC</p>
-        </div>
-      </a>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Apex, NC</p>
+      </div>
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
         <p>(919) 971-4894</p>
@@ -179,43 +179,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-dark-grey">
   <div class="w3-row-padding">
-    <div class="w3-third">
-      <h3>FOOTER</h3>
-      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <div>
+      <h3>Thanks for reading.</h3>
+      <img style="margin-left:3vw;" src="css/images/peace.png" />
     </div>
-  
-    <div class="w3-third">
-      <h3>BLOG POSTS</h3>
-      <ul class="w3-ul w3-hoverable">
-        <li class="w3-padding-16">
-          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Lorem</span><br>
-          <span>Sed mattis nunc</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Ipsum</span><br>
-          <span>Praes tinci sed</span>
-        </li> 
-      </ul>
-    </div>
-
-    <div class="w3-third">
-      <h3>POPULAR TAGS</h3>
-      <p>
-        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
-      </p>
-    </div>
-
   </div>
   </footer>
   
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+  <div class="w3-black w3-center w3-padding-24"></div>
 
 <!-- End page content -->
 </div>
